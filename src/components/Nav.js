@@ -3,13 +3,13 @@ import React, { Component } from 'react'
 export class Nav extends Component {
     render() {
         return (
-            <div>
+            <nav>
                 <h1>Nav</h1>
-                <ul>
+                <ul className="nav-links">
                     <li>About</li>
                     <li>Shop</li>
                 </ul>
-            </div>
+            </nav>
         )
     }
 }

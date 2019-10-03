@@ -11,7 +11,7 @@ export class Nav extends Component {
         }
         return (
             <nav>
-                <Link style={navLinkStyle} to="/" ><h1>Nav</h1></Link>
+                <Link style={navLinkStyle} to="/" ><h1>Business Logo</h1></Link>
                 <ul className="nav-links">
                     <Link style={navLinkStyle} to="/about"><li>About</li></Link>
                     <Link style={navLinkStyle} to="/shop"><li>Shop</li></Link>
